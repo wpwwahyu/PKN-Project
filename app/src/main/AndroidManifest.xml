@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ngalam112v2" >
-<uses-permission android:name="android.permission.INTERNET"/>
+    package="com.example.ngalam112v2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,11 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true" >
-        <activity android:name=".MainForm" >
-        </activity>
+        android:usesCleartextTraffic="true">
+        <activity android:name=".menu.About"></activity>
+        <activity android:name=".menu.Profile" />
+        <activity android:name=".menu.Form" />
+        <activity android:name=".menu.History" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".menu.MainProfile" />
+        <activity android:name=".menu.MainForm" />
+        <activity android:name=".menu.MainHistory" />
+        <activity android:name=".menu.MainAbout" />
+        <activity android:name=".menu.MainDasboard" />
         <activity android:name=".MainSignin" />
-        <activity android:name=".MainSplash" >
+        <activity android:name=".MainSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

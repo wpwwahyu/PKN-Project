@@ -14,9 +14,7 @@ import android.widget.Toast;
 import com.example.ngalam112v2.login.LoginRequest;
 import com.example.ngalam112v2.login.LoginResponse;
 import com.example.ngalam112v2.services.ApiClient;
-import com.example.ngalam112v2.ui.MainNav;
 import com.google.android.material.textfield.TextInputEditText;
-import com.vishnusivadas.advanced_httpurlconnection.PutData;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -67,7 +65,7 @@ public class MainSignin extends AppCompatActivity {
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            startActivity(new Intent(MainSignin.this, MainNav.class).putExtra("data", loginResponse.getUsername()));
+                            startActivity(new Intent(MainSignin.this, MainActivity.class).putExtra("data", loginResponse.getUsername()));
                         }
                     }, 700);
                 }else{
