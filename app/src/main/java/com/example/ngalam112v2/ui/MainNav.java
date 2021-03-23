@@ -12,7 +12,7 @@ public class MainNav extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_nav);
         android.R.attr bottomNavigationView;
-        bottomNavigationView.background = null;
-        bottomNavigationView.menu.getItem(2).isEnabled = false;
+//        bottomNavigationView.background = null;
+//        bottomNavigationView.menu.getItem(2).isEnabled = false;
     }
 }
