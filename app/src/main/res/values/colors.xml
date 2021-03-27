@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorPrimary">#FFC006</color>
-    <color name="colorPrimaryDark">#FFF000</color>
+    <color name="colorPrima">#FFF000</color>
     <color name="backgroundcolor">#fcfcfc</color>
     <color name="lightgrey">#ededed</color>
     <color name="deeppurple">#7c4dff</color>
@@ -24,4 +24,7 @@
     <color name="followersBg">#65DCE5</color>
     <color name="followingBg">#49BEFF</color>
     <color name="grey">#E5E5E5</color>
+    <color name="colorPrimaryPUR">#6200EE</color>
+    <color name="colorPrimaryDark">#005bea</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>
